@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title displayed in browser tab -->
+    <title>JJ Farming - Enquiry</title>
+</head>
+<body>
+
+    <!-- ==================== HEADER SECTION ==================== -->
+    <!-- Contains logo/title and navigation menu for all pages -->
+    <header>
+        <h1>🌾 JJ FARMING</h1>
+        <p>Quality Agri-inputs & Expert Support</p>
+        <!-- Navigation menu - consistent across all pages -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+        <!-- Enquiry Introduction Section -->
+        <section>
+            <h2>Get Involved or Enquire About Products</h2>
+            <p>JJ Farming welcomes farmers, sponsors, and volunteers who share our vision of sustainable agriculture. Fill out the form below — whether you need agri-inputs, wish to sponsor a farming project, or volunteer at our community outreach.</p>
+        </section>
+
+        <!-- Enquiry Form Section -->
+        <!-- This form allows visitors to enquire about products, become volunteers, or become sponsors -->
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Enquiry Form</legend>
+
+                    <!-- Full Name input field -->
+                    <p>
+                        <label for="fullname">Full Name *</label><br>
+                        <input type="text" id="fullname" name="fullname" required size="40">
+                    </p>
+
+                    <!-- Email input field -->
+                    <p>
+                        <label for="email">Email Address *</label><br>
+                        <input type="email" id="email" name="email" required size="40">
+                    </p>
+
+                    <!-- Phone input field -->
+                    <p>
+                        <label for="phone">Phone Number</label><br>
+                        <input type="tel" id="phone" name="phone" size="40">
+                    </p>
+
+                    <!-- Dropdown for enquiry type - includes volunteer and sponsor options for NPO-style functionality -->
+                    <p>
+                        <label for="enquiryType">I am interested in: *</label><br>
+                        <select id="enquiryType" name="enquiryType" required>
+                            <option value="">-- Select --</option>
+                            <option value="product">Product Purchase / Quote</option>
+                            <option value="volunteer">Becoming a Volunteer (community programs)</option>
+                            <option value="sponsor">Becoming a Sponsor / Partner</option>
+                            <option value="other">General enquiry</option>
+                        </select>
+                    </p>
+
+                    <!-- Message textarea for detailed enquiry -->
+                    <p>
+                        <label for="message">Message / Details *</label><br>
+                        <textarea id="message" name="message" rows="5" cols="50" placeholder="Tell us about your farming needs or how you'd like to support/sponsor..." required></textarea>
+                    </p>
+
+                    <!-- Submit button -->
+                    <p>
+                        <button type="submit">Send Enquiry</button>
+                    </p>
+                    <p><em>We'll respond within 24 hours. Together we grow.</em></p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER SECTION ==================== -->
+    <!-- Contains copyright, contact info, and thank you message -->
+    <footer>
+        <p>© 2025 JJ Farming — Growing the future of South African agriculture. All rights reserved.</p>
+        <p>📍 Head Office: 246 Madibe Road, Agricultural Area | ✉️ info@jjfarming.com | 📞 +27 79 345 6789</p>
+        <p><strong>Thank you for visiting our website</strong></p>
+    </footer>
+
+</body>
+</html>
